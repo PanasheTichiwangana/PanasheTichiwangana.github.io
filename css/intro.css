@@ -1,1 +1,25 @@
+@media only screen and (max-width: 600px) {
+	.text-name{
+		position:absolute;
+		top: 30%;
+		right:2%;
+	}
+	
+	.job-title{
+		text-align:text-center;
+	}
+}
 
+.intro{
+	position:relative;
+}
+
+
+@media only screen and (min-width: 600px) {
+	.profile-pic{
+		float:right;
+		position:absolute; 
+		right:10%;
+		top:2%;
+	}
+}
