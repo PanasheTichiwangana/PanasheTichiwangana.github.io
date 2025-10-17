@@ -52,22 +52,6 @@ a:hover{
 
 
 /*.............................. fonts ...........................................*/
-@font-face {
-	font-family: 'Beauty';
-	src: url('fonts/BeautyDemo.woff') format('woff');
-}
-.beauty-font {
-	font-family: 'Beauty';
-}
-
-
-@font-face {   /*.College.*/
-	font-family: 'College';
-	src: url('fonts/College.woff') format('woff');
-}
-.college-font {
-	font-family: 'College';
-}
 
 @font-face {   /*Tangerine Bold.*/
 	font-family: 'TangerineBold';
@@ -77,13 +61,7 @@ a:hover{
 	font-family: 'TangerineBold';
 }
 
-@font-face {   /*Teutonic3.*/
-	font-family: 'Teutonic3';
-	src: url('fonts/Teutonic3.woff') format('woff');
-}
-.Teutonic3-font {
-	font-family: 'Teutonic3';
-}
+
 
 @font-face {   /*TheBlacklist.*/
 	font-family: 'TheBlacklist';
@@ -94,12 +72,14 @@ a:hover{
 	
 }
 
-@font-face {   /*36daysag.*/
-	font-family: '36daysag';
-	src: url('fonts/36daysag.woff') format('woff');
+
+
+@font-face {   /*electrolize*/
+	font-family: 'tangerine';
+	src: url('fonts/Tangerine_Regular.ttf') format('tff');
 }
-.Daysag-font {
-	font-family: '36daysag';
+.electrolize {
+	font-family: 'tangerine';
 }
 
 
