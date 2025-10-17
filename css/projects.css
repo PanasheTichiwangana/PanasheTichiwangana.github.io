@@ -1,0 +1,28 @@
+
+.project {
+  position: relative;
+}
+
+.project svg {
+  position: absolute;
+}
+
+
+.project .line {
+  stroke-dasharray: 260;
+  stroke-width: 3px;
+  fill: transparent;
+  stroke: rgba(242, 238, 7, 0.7);
+  animation: svgAnimation 2.5s linear infinite;
+}
+
+
+@keyframes svgAnimation {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+

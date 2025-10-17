@@ -1,3 +1,8 @@
+.intro{
+	position:relative;
+}
+
+
 @media only screen and (max-width: 600px) {
 	.text-name{
 		position:absolute;
@@ -10,11 +15,6 @@
 	}
 }
 
-.intro{
-	position:relative;
-}
-
-
 @media only screen and (min-width: 600px) {
 	.profile-pic{
 		float:right;
@@ -22,4 +22,33 @@
 		right:10%;
 		top:2%;
 	}
+}
+	
+	
+.radial-gradient{
+	background-image:radial-gradient(white,white,#7c9bcc);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.............................. treatments background image home page ...........................................*/
+.treatments{
+	background-image: url("../images/background/woman-getting-back-massage.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: scroll;
+	background-color: rgba(255, 255, 255, 0.4); /* White with 60% opacity */
+    background-blend-mode: lighten; /* Or other blend modes like multiply, screen, overlay */ 
 }

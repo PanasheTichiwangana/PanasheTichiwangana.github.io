@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+	
+}
+
+a:hover{
+	cursor:pointer; 
+}
+
+.div-heading{
+	width:80%; 
+}
+
+/*.............................. animate heading outline #programming languages ...........................................*/
+.animate-outline{
+	outline-width: 1px;
+	outline-offset: 0;
+	outline-color: rgba(0, 130, 206, 0.75);
+	outline-style: solid;
+	animation: animateOutline 4s ease infinite;
+}
+
+@keyframes animateOutline {
+  0% {
+    outline-width: 1px;
+    outline-offset: 0;
+    outline-color: rgba(0, 130, 206, 0);
+  }
+
+  10% {
+    outline-color: rgba(0, 130, 206, 0.75);
+  }
+
+  /* The animation finishes at 50% */
+  50% {
+    outline-width: 7px;
+    outline-offset: 4px;
+    outline-color: rgba(0, 130, 206, 0);
+  }
+
+  100% {
+    outline-width: 9px;
+    outline-offset: 4px;
+    outline-color: rgba(102, 102, 102, 0);
+  }
+}
+
+
+
+/*.............................. fonts ...........................................*/
+@font-face {
+	font-family: 'Beauty';
+	src: url('fonts/BeautyDemo.woff') format('woff');
+}
+.beauty-font {
+	font-family: 'Beauty';
+}
+
+
+@font-face {   /*.College.*/
+	font-family: 'College';
+	src: url('fonts/College.woff') format('woff');
+}
+.college-font {
+	font-family: 'College';
+}
+
+@font-face {   /*Tangerine Bold.*/
+	font-family: 'TangerineBold';
+	src: url('fonts/TangerineBold.woff') format('woff');
+}
+.TangerineBold-font {
+	font-family: 'TangerineBold';
+}
+
+@font-face {   /*Teutonic3.*/
+	font-family: 'Teutonic3';
+	src: url('fonts/Teutonic3.woff') format('woff');
+}
+.Teutonic3-font {
+	font-family: 'Teutonic3';
+}
+
+@font-face {   /*TheBlacklist.*/
+	font-family: 'TheBlacklist';
+	src: url('fonts/TheBlacklist.woff') format('woff');
+}
+.TheBlacklist-font {
+	font-family: 'TheBlacklist';
+	
+}
+
+@font-face {   /*36daysag.*/
+	font-family: '36daysag';
+	src: url('fonts/36daysag.woff') format('woff');
+}
+.Daysag-font {
+	font-family: '36daysag';
+}
+
+
+
