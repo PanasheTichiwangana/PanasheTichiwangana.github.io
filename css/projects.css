@@ -1,6 +1,16 @@
+.radial-background-project{
+	background-image: url("../images/background/v617batch2-kul-05-technology.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: scroll;
+	/*background-color: rgba(255, 255, 255, 0.4);  White with 60% opacity */
+    background-blend-mode: lighten; /* Or other blend modes like multiply, screen, overlay */ 
+}
 
 .project {
   position: relative;
+  background-color: rgba(0, 0, 0, 0.5); /* 50% opaque black background */
 }
 
 .project svg {
@@ -12,7 +22,7 @@
   stroke-dasharray: 260;
   stroke-width: 3px;
   fill: transparent;
-  stroke: rgba(242, 238, 7, 0.7);
+  stroke: rgba(255, 0, 255, 0.7);
   animation: svgAnimation 2.5s linear infinite;
 }
 
