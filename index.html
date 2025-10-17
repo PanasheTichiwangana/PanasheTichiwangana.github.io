@@ -6,6 +6,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Font Awesome -->
+		  <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+		<!-- Bootstrap 5 -->
+		<link href = "bootstrap/css/bootstrap.css" rel = "stylesheet">
+				<!-- Font Awesome -->
 		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- Bootstrap 5 -->
 		 <!-- Latest compiled and minified CSS -->
@@ -23,7 +27,7 @@
 		<div class = "container-fluid">
 	
 	<!-- Row 1: Name -->
-			<div class = "row m-2 pt-2">	
+			<div class = "row pt-2 bg-light">	
 				<div class = "col-6"> 
 					<h1 class = ""> 
 						<b>
@@ -40,9 +44,10 @@
 	<!-- Row 2: Summary -->
 			<div class = "row">
 				<div class = "col">
-					<div class = "intro p-2 shadow-sm ">
-						<p class = "fs-5 text-center">Hello, I'am </p> 
-						<img class = "profile-pic" src = "images/panashe-tichiwangana-no-background.png" alt = "panashe tichiwangana profile picture"/>
+					<div class = "intro p-3 shadow-sm ">
+						<p class = "fs-3 text-center text-decoration-underline">Hello, I'am </p> 
+						<img class = "profile-pic p-2" src = "images/panashe-tichiwangana-no-background.png" alt = "panashe tichiwangana profile picture"/>
+						
 						<p class = "text-name fs-1"> &nbsp;&nbsp;&nbsp; Panashe <br/> Tichiwangana </p> 
 						
 						<p class = "fs-5 job-title"> 
@@ -139,46 +144,46 @@
 				</div>
 			</div>
 			
-			<div class = "row p-2 border-bottom border-secondary">
-				<div class = "col-md py-3 text-center shadow-sm m-2"> <!-- Frameworks-->
+			<div class = "row p-2 border-bottom border-secondary bg-light">
+				<div class = "col-md py-3 text-center shadow-sm m-2 rounded bg-primary"> <!-- Frameworks-->
 					<h3 class = "fs-5 fw-semibold"> Frameworks </h3> 
 					<div class = "px-4">
 						<ul class = "list-group list-group-flush">
-							<li class="list-group-item"> Laravel </li>
-							<li class="list-group-item"> Spring </li>
-							<li class="list-group-item"> ReactJs </li>
-							<li class="list-group-item"> NextJs  </li>
-							<li class="list-group-item"> Nodejs  </li>
-							<li class="list-group-item"> Bootstrap </li>
+							<li class="list-group-item bg-primary"> Laravel </li>
+							<li class="list-group-item bg-primary"> Spring </li>
+							<li class="list-group-item bg-primary"> ReactJs </li>
+							<li class="list-group-item bg-primary"> NextJs  </li>
+							<li class="list-group-item bg-primary"> Nodejs  </li>
+							<li class="list-group-item bg-primary"> Bootstrap </li>
 						</ul>
 					</div>
 				</div>
-				<div class = "col-md py-3 text-center"> <!-- Version Control-->
+				<div class = "col-md py-3 text-center shadow-sm m-2 bg-success rounded"> <!-- Version Control-->
 					<h3 class = "fs-5 fw-semibold"> Version Control </h3> 
-					<div class = "px-4 mb-4 border-bottom">
+					<div class = "px-4 mb-4 border-bottom bg-success">
 						<ul class = "list-group list-group-flush">
-							<li class="list-group-item"> Git </li>
-							<li class="list-group-item"> Github </li>
+							<li class="list-group-item bg-success"> Git </li>
+							<li class="list-group-item bg-success"> Github </li>
 						</ul>
 					</div>
 					<h3 class = "fs-5 fw-semibold"> Virtual  </h3> 
 					<div class = "px-4">
 						<ul class = "list-group list-group-flush">
-							<li class="list-group-item"> Docker </li>
-							<li class="list-group-item"> Kubernates </li>
+							<li class="list-group-item bg-success"> Docker </li>
+							<li class="list-group-item bg-success"> Kubernates </li>
 						</ul>
 					</div>
 				</div>
-				<div class = "col-md py-3 text-center"> <!-- Skills -->
+				<div class = "col-md py-3 text-center shadow-sm m-2 rounded bg-warning"> <!-- Skills -->
 					<h3 class = "fs-5 fw-semibold"> Skills </h3>
 					<div class = "px-4">
 						<ul class = "list-group list-group-flush">
-							<li class="list-group-item"> Business Requirement Translation </li>
-							<li class="list-group-item"> Team Management </li>
-							<li class="list-group-item"> Object Oriented Programming </li>
-							<li class="list-group-item"> CI/CD  </li>
-							<li class="list-group-item"> Agile methodologies </li>
-							<li class="list-group-item"> System Process Innovation </li>
+							<li class="list-group-item bg-warning"> Business Requirement Translation </li>
+							<li class="list-group-item bg-warning"> Team Management </li>
+							<li class="list-group-item bg-warning"> Object Oriented Programming </li>
+							<li class="list-group-item bg-warning"> CI/CD  </li>
+							<li class="list-group-item bg-warning"> Agile methodologies </li>
+							<li class="list-group-item bg-warning"> System Process Innovation </li>
 						</ul>
 					</div>
 				</div>
@@ -211,10 +216,11 @@
 				</div>
 			</div>
 			
-	<!-- Row 6: Projects -->	
+	<!-- Row 6: Projects -->
+		<div class = "radial-background-project pb-4 text-white">
 			<div class = "row pt-3">
 				<div class = "col">
-					<div class = "div-heading p-2 rounded mx-auto">
+					<div class = "div-heading p-2 bg-dark rounded mx-auto">
 						<h2 class = "fs-4 text-center"> Projects </h2>
 					</div>
 				</div>
@@ -222,7 +228,7 @@
 			
 			<div class = "row p-2 border-bottom">
 				<div class = "col-md p-3"> <!-- Project one -->
-					<div class="project rounded bg-secondary">
+					<div class="project rounded">
 					  <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
 						<rect
 						  rx="8"
@@ -241,7 +247,7 @@
 					</div>
 				</div>
 				<div class = "col-md p-3"> <!-- Project two -->
-					<div class="project rounded bg-secondary">
+					<div class="project rounded">
 					  <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
 						<rect
 						  rx="8"
@@ -260,7 +266,7 @@
 					</div>
 				</div>
 				<div class = "col-md p-3"> <!-- Project two -->
-					<div class="project rounded bg-secondary">
+					<div class="project rounded">
 					  <svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
 						<rect
 						  rx="8"
@@ -279,19 +285,20 @@
 					</div>
 				</div>
 			</div>
-			
+		</div>
+		
 	<!-- Row 6: Projects -->
-		<div class "row">
-			<div class = "col pt-3">
-				<div>
+		<div class "row m-2 shadow-sm">
+			<div class = "col pt-4">
+				<div class = "div-heading">
 					<h2 class = "fs-4"> Education </h2>
 				</div>
 			</div>
 		</div>
 		
 		<div class = "row p-2">
-			<div class = "col-md p-2">
-				<div>
+			<div class = "col-md">
+				<div class = "shadow p-3 rounded">
 					<h3 class = "fs-5"> Bachelor of Science in Information Technology </h3>
 					<button type="button" class="btn btn-primary">
 					  C T I Education Group <span class="badge bg-secondary">2013 – 2015</span>
@@ -299,17 +306,17 @@
 				</div>
 			</div>
 			<div class = "col-md p-2">
-				<div>
+				<div class = "shadow p-3 rounded">
 					<h3 class = "fs-5"> Pearson BTEC Level 5 HND Diploma </h3>
 					<button type="button" class="btn btn-primary">
 					  <h4 class = "fs-6"> 
-							London Sschool Of BUSINESS AND MANAGEMENT <span class="badge bg-secondary">2013 – 2014</span> 
+							London School Of BUSINESS AND MANAGEMENT <span class="badge bg-secondary">2013 – 2014</span> 
 					  </h4>
 					</button>
 				</div>
 			</div>
 			<div class = "col-md p-2">
-				<div>
+				<div class = "shadow p-3 rounded">
 					<h3 class = "fs-5"> Advanced Level </h3>
 					<button type="button" class="btn btn-primary">
 					  <h4 class = "fs-6"> 
@@ -349,23 +356,19 @@
 		
 	<!-- Row 7: Footer -->
 		<div class = "row p-2">
-			<div class = "col-6">
-				<p class = "fs-5"> Panashe Tichiwangana </p>
+			<div class = "col-8">
+				<p class = "fs-5 TheBlacklist-font"> Panashe Tichiwangana </p>
 			</div>
-			<div class = "col-2">
-				@2025
-			</div>
+
 			<div class = "col-4">
 				<div class = "row ">
 					<div class = "col"> <a> <i class="fa fa-facebook" aria-hidden="true"></i>  </a> </div>
 					<div class = "col"><a> <i class="fa fa-linkedin" aria-hidden="true"></i>  </a></div>
 					<div class = "col"><a> <i class="fa fa-envelope" aria-hidden="true"></i>  </a></div>
-					<div class = "col"><a> <i class="fa fa-whatsapp" aria-hidden="true"></i>  </a></div>
 				</div>
 			</div>
 		</div>
 			
 		</div>
 	</body>
-
 </html> 
